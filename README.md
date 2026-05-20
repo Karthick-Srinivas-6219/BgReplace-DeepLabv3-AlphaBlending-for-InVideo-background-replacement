@@ -34,13 +34,24 @@ This repo is an attempt at reverse engineering the background replacement featur
 
 ## 🔧 Running Dependency
 
-Download **shape-predictor-68-face-landmarks.dat** from the link [[Link to download]](https://github.com/mohamedamine99/Facial-recognition-with-dlib).
-
-Place this file inside ```models/ ```
+After downloading/cloning the repo ensure checkpoint **deeplabv3.pth** is placed inside ```models/```.
 
    ```bash
    ├── models/
-       ├── dlib_face_recognition_resnet_model_v1.dat
-       ├── mmod_human_face_detector.dat
-       ├── shape-predictor-68-face-landmarks.dat
+       ├── deeplabv3.pth 
    ```
+
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🙌 Acknowledgements
+
+* [Special Thanks](https://github.com/VainF/DeepLabV3Plus-Pytorch) - The original **DeepLabv3** repo.
+* [Special Thanks](https://learnopencv.com/alpha-blending-using-opencv-cpp-python/) - **OpenCVs** official blog on **AlphaBlending**.
+---
+
+### ⭐ If you find this project helpful, don’t forget to star the repo!
