@@ -24,7 +24,6 @@ This repo is an attempt at reverse engineering the background replacement featur
     ├── underwater.gif                    
 ├── models/                   # DeepLabv3 checkpoint.
       ├── deeplabv3.pth
-├── office_test_images/       # Some test scenes from the show - "The Office" to be supplied for inference.
 ├── requirements.txt          # Python dependencies.
 ├── deeplabv3.py              # A Streamlit demo of the entire project.
 ├── PersonFg_Segmentation.ipynb   # Implements the entire Foreground segmentation + AlphaBlending Pipeline.
@@ -32,3 +31,16 @@ This repo is an attempt at reverse engineering the background replacement featur
 ```
 
 ---
+
+## 🔧 Running Dependency
+
+Download **shape-predictor-68-face-landmarks.dat** from the link [[Link to download]](https://github.com/mohamedamine99/Facial-recognition-with-dlib).
+
+Place this file inside ```models/ ```
+
+   ```bash
+   ├── models/
+       ├── dlib_face_recognition_resnet_model_v1.dat
+       ├── mmod_human_face_detector.dat
+       ├── shape-predictor-68-face-landmarks.dat
+   ```
