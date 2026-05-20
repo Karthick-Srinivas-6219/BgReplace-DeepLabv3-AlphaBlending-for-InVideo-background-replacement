@@ -8,3 +8,9 @@ This repo is an attempt at reverse engineering the background replacement featur
 # Overview of the pipeline
 ![Alt text](Full_Pipeline.png)
 
+## 🚀 Features
+
+* **AlphaBlending or Alpha Composition**: Used to generate the **alpha mask** that seamlessly merges foreground and background.
+* **DeepLabv3**: Effective **foreground Segmentation**.
+* **Real time blending**: Of foreground with the background image using the generated **alpha mask**.
+---
