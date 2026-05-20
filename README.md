@@ -6,5 +6,5 @@ This repo is an attempt at reverse engineering the background replacement featur
 [[Link to Demo]](https://youtu.be/RqFwmqA6Rvw "Click to watch")
 
 # Overview of the pipeline
-![Alt text](InScene_Full_Workflow_Github.png)
+![Alt text](Full_Pipeline.png)
 
