@@ -14,3 +14,21 @@ This repo is an attempt at reverse engineering the background replacement featur
 * **DeepLabv3**: Effective **foreground Segmentation**.
 * **Real time blending**: Of foreground with the background image using the generated **alpha mask**.
 ---
+
+## 📂 Project Structure
+
+```bash
+.
+├── live_frame_cache/         # Folder cache where the current frame & its computed alpha mask sit before blending.
+├── bg/                       # Test gif for background-foreground merging.
+    ├── underwater.gif                    
+├── models/                   # DeepLabv3 checkpoint.
+      ├── deeplabv3.pth
+├── office_test_images/       # Some test scenes from the show - "The Office" to be supplied for inference.
+├── requirements.txt          # Python dependencies.
+├── deeplabv3.py              # A Streamlit demo of the entire project.
+├── PersonFg_Segmentation.ipynb   # Implements the entire Foreground segmentation + AlphaBlending Pipeline.
+├── Full_Pipeline.png         # Architecture diagram of DeepLabv3 based Foreground segmentation + AlphaBlending Pipeline.
+```
+
+---
